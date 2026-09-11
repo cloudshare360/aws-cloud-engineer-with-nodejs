@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f4f7fb"/>
+  <rect x="120" y="50" width="1040" height="620" rx="18" fill="#ffffff" stroke="#d9e3ef"/>
+  <text x="170" y="110" font-size="30" font-family="Segoe UI, Arial, sans-serif" fill="#1f2937" font-weight="700">Completing the Git Setup Wizard</text>
+  <rect x="170" y="160" width="700" height="230" rx="16" fill="#f9fbff" stroke="#dfeaf9"/>
+  <text x="200" y="215" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#1f2937" font-weight="700">Installation complete</text>
+  <text x="200" y="260" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">Git is now installed on your Windows 11 computer.</text>
+  <text x="200" y="295" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">You can launch Git Bash, Git GUI, or use Git from the terminal.</text>
+  <text x="200" y="335" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">Open a new terminal to ensure new PATH values are loaded.</text>
+  <rect x="920" y="470" width="130" height="44" rx="10" fill="#1f6feb"/>
+  <text x="985" y="500" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#ffffff" text-anchor="middle">Finish</text>
+  <rect x="840" y="190" width="220" height="170" rx="16" fill="#eef5ff" stroke="#dfeaff"/>
+  <circle cx="950" cy="245" r="42" fill="#1f6feb"/>
+  <path d="M930 245 L945 260 L972 233" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="890" y="315" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#1f6feb" font-weight="700">Success</text>
+  <text x="170" y="610" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">Screenshot 5: finish screen after a successful installation.</text>
+</svg>

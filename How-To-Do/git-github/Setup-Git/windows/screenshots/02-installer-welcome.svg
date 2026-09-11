@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f4f7fb"/>
+  <rect x="120" y="50" width="1040" height="620" rx="18" fill="#ffffff" stroke="#d9e3ef"/>
+  <text x="170" y="110" font-size="30" font-family="Segoe UI, Arial, sans-serif" fill="#1f2937" font-weight="700">Git Setup</text>
+  <text x="170" y="160" font-size="20" font-family="Segoe UI, Arial, sans-serif" fill="#53657d">Welcome to the Git for Windows Setup Wizard</text>
+  <rect x="170" y="190" width="430" height="240" rx="14" fill="#f9fbff" stroke="#dfeaf9"/>
+  <text x="200" y="235" font-size="22" font-family="Segoe UI, Arial, sans-serif" fill="#2b3a48" font-weight="700">License Agreement</text>
+  <text x="200" y="275" font-size="17" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">This program is free software, and you are</text>
+  <text x="200" y="302" font-size="17" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">welcome to redistribute it under certain</text>
+  <text x="200" y="329" font-size="17" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">conditions. Read the license before installing.</text>
+  <rect x="170" y="470" width="120" height="44" rx="10" fill="#f0f4fa"/>
+  <text x="214" y="500" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#3b4a5c" text-anchor="middle">Back</text>
+  <rect x="920" y="470" width="120" height="44" rx="10" fill="#1f6feb"/>
+  <text x="980" y="500" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#ffffff" text-anchor="middle">Next</text>
+  <rect x="700" y="190" width="340" height="220" rx="16" fill="#eef5ff" stroke="#dfeaff"/>
+  <text x="735" y="260" font-size="52" font-family="Segoe UI, Arial, sans-serif" fill="#1f6feb" font-weight="700">Git</text>
+  <text x="735" y="315" font-size="26" font-family="Segoe UI, Arial, sans-serif" fill="#425669">Installer</text>
+  <text x="735" y="360" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">Windows 11</text>
+  <text x="170" y="610" font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d6f">Screenshot 2: welcome screen after launching the installer.</text>
+</svg>
