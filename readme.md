@@ -15,7 +15,7 @@ This roadmap is organized for an associate who wants to become an AWS Cloud Engi
 
 | Order | Where | What you do there | Entry file |
 |---|---|---|---|
-| 1 | [todo-task/](todo-task/) | **Order of execution** — one task per file, numbered 01 → 11 | [master index](todo-task/README.md) |
+| 1 | [todo-task/](todo-task/) — [master index](todo-task/README.md) | **Order of execution** — one task per file, numbered 01 → 11 | [task-01](todo-task/task-01-setup-install-scoop.md) |
 | 2 | [How-To-Do/](How-To-Do/) | **How** each setup step is executed — deep-dive guides, cheatsheets, screenshots | per-tool README |
 | 3 | [programiz-learning/](programiz-learning/) | **Content** — offline JavaScript curriculum: 59 topics, 9 sections, `index.md` notes + images | [README](programiz-learning/README.md) |
 | 4 | [Google Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) | **Progress** — daily log: Planned vs Actual dates + Remarks per topic ([task-10](todo-task/task-10-daily-execution-google-sheet.md)) | live tracker |
@@ -23,7 +23,7 @@ This roadmap is organized for an associate who wants to become an AWS Cloud Engi
 | 6 | [docs/sdlc/](docs/sdlc/) | **Process** — how this workspace maps to SDLC phases | [README](docs/sdlc/README.md) |
 | 7 | [email/](email/) | **Templates** — reusable onboarding email for new learners | [generic-onboarding-email](email/generic-onboarding-email.md) |
 
-**Status convention:** each `todo-task/task-NN.md` ends with a ✅ completion checklist *and* a link to the next file. If the next link says `task-NN+1`, you are on track. If it says "continue with the roadmap", the setup series is done.
+**Status convention:** each `todo-task/task-NN-<name>.md` ends with a ✅ completion checklist *and* a link to the next file. If the next link says `task-NN+1`, you are on track. If it says "continue with the roadmap", the setup series is done.
 
 ---
 
