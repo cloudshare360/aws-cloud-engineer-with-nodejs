@@ -1,5 +1,23 @@
 # AWS Cloud Engineer Full-Stack Learning Roadmap
 
+> **New here? Start here and follow this file top to bottom — no human help needed.**
+>
+> 1. **Read this file fully once** (~10 min) to understand where everything lives.
+> 2. **Do the tasks in order:** start at [todo-task/task-01](todo-task/task-01.md) and finish each task's ✅ checklist before opening the next file. Each file links to its successor, so you never have to guess what comes next.
+> 3. **Study JavaScript daily** in [programiz-learning/](programiz-learning/) following [task-08](todo-task/task-08.md) (the 11-week schedule) and [task-10](todo-task/task-10.md) (the daily routine + Google Sheet logging).
+> 4. **Use the map below** whenever you're lost: it shows every section of this repo and exactly which file to open next.
+
+## Start Here — Repo Map (Which Folder, When)
+
+| Order | Where | What you do there | Entry file |
+|---|---|---|---|
+| 1 | [todo-task/](todo-task/) | Hands-on setup, one task per file, in numbered order (01 → 11) | [task-01](todo-task/task-01.md) |
+| 2 | [programiz-learning/](programiz-learning/) | Offline JavaScript curriculum: 59 topics, 9 sections, `index.md` notes + images | [README](programiz-learning/README.md) |
+| 3 | Google Sheet (you create it) | Daily progress log: Actual dates + Remarks per topic (Task 10) | Sheet link in [programiz-learning/README](programiz-learning/README.md) |
+| 4 | Rest of this file (roadmap) | What comes after JS: Node.js → React/Angular → full-stack → AWS | Keep reading below |
+
+**Status convention:** each `todo-task/task-NN.md` ends with a ✅ completion checklist *and* a link to the next file. If the next link says `task-NN+1`, you are on track. If it says "continue with the roadmap", the setup series is done.
+
 This roadmap is organized for an associate who wants to become an AWS Cloud Engineer with strong full-stack development skills using Node.js, React.js, Angular, and cloud deployment practices.
 
 The goal is to build end-to-end product skills:
@@ -53,11 +71,39 @@ From day one, the learner must install and understand the tools used in real sof
 - Maintain a Kanban board for tasks and learning goals
 - Review blockers and update progress every day
 
+### Step-by-step environment guide
+- Do these **in numbered order**. Each task file ends with a ✅ checklist and a link to the next task, so you always know where to go:
+  1. [task-01](todo-task/task-01.md) — package manager (Scoop / Homebrew) → ✅ then open task-02
+  2. [task-02](todo-task/task-02.md) — Python via Scoop → ✅ then open task-03
+  3. [task-03](todo-task/task-03.md) — Node.js via Scoop → ✅ then open task-04
+  4. [task-04](todo-task/task-04.md) — Oracle JDK 21 via Scoop → ✅ then open task-05
+  5. [task-05](todo-task/task-05.md) — Git + Git Bash tools on PATH → ✅ then open task-06
+  6. [task-06](todo-task/task-06.md) — create your first Git repo → ✅ then open task-07
+  7. [task-07](todo-task/task-07.md) — personal-documents repo for employer sharing → ✅ then open task-08
+  8. [task-08](todo-task/task-08.md) — JavaScript learning-plan schedule → ✅ then open task-09
+  9. [task-09](todo-task/task-09.md) — Git concepts (git-scm.com/learn) → ✅ then open task-10
+  10. [task-10](todo-task/task-10.md) — daily execution with the Google Sheet → ✅ daily routine from here on
+  11. [task-11](todo-task/task-11.md) — Kilo CLI + VS Code extension, free vs paid tiers → ✅ then continue with the roadmap below
+- **Exactly one `.gitkeep` placeholder** lives in `todo-task/` so Git tracks the folder; ignore it — the `task-NN.md` files are the real content.
+
 ---
 
 ## 3. Core Programming Foundation: JavaScript
 
 JavaScript is the foundation for frontend, backend, and serverless development.
+
+### Study content in this repo
+- Offline notes: [programiz-learning/](programiz-learning/) — 59 topics across 9 sections, each with `index.md` + `images/` (see its [README](programiz-learning/README.md) for the full map). Study topics **in Srno order** (`01-01` → `09-10`), never at random.
+- Progress tracker: [Programiz-JavaScript-Tracking-Sheet](programiz-learning/Programiz-JavaScript-Tracking-Sheet.md) (59 rows, Estimated Hours, References)
+- Execution plan: [todo-task/task-08](todo-task/task-08.md) — 11-week schedule from the tracking sheet. Planned dates go here.
+- Daily routine: [todo-task/task-10](todo-task/task-10.md) — study topics in order, log Actual dates in the Google Sheet
+- AI assistance: [todo-task/task-11](todo-task/task-11.md) — Kilo CLI + VS Code extension for agentic help during study
+
+### Google Sheet ↔ GitHub navigation
+- One rule: **content lives in the repo, progress lives in the Sheet.** The repo's `index.md` files never record progress; the Sheet's Actual-date cells never hold study material.
+- The repo links to the Sheet here: 📊 **Progress Tracker (Google Sheet):** `PASTE_SHEET_URL_HERE` — replace this placeholder with your Sheet URL the day you create it (Task 10, Part A).
+- The Sheet links back to the repo: add a `NAVIGATION` row with `=HYPERLINK("<this-repo-url>/tree/main/programiz-learning","← Open programiz-learning on GitHub")`.
+- Once both links exist, a study day is: Sheet row (today's Srno) → References URL or local `programiz-learning/javascript/<section>/<topic>/index.md` → study → Sheet row (fill Actual dates). See [task-10](todo-task/task-10.md) for the full loop.
 
 ### JavaScript core video course
 - [(50) Namaste JavaScript 🙏 Course - JS Video Tutorials by Akshay Saini - YouTube](https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
@@ -152,6 +198,8 @@ JavaScript is the foundation for frontend, backend, and serverless development.
 
 Node.js is the foundation for backend services, APIs, and cloud-ready application logic.
 
+> **Environment ready?** If you did [task-03](todo-task/task-03.md), `node --version` already works. If not, complete task-03 first — every command below assumes it.
+
 ### Node.js learning resources
 - [Node.js Tutorial for Beginners: Learn Node in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4&t=2s)
 - [(50) Node js Tutorials - YouTube](https://www.youtube.com/playlist?list=PLTjRvDozrdlydy3uUBWZlLUTNpJSGGCEm)
@@ -184,6 +232,8 @@ Node.js is the foundation for backend services, APIs, and cloud-ready applicatio
 ## 5. Frontend Development: React.js / Next.js and Angular
 
 The learner should split frontend study between modern React-based development and Angular-based application patterns.
+
+> **Same discipline as JavaScript:** for each framework topic, study → commit ([task-06](todo-task/task-06.md) loop) → log in your tracker ([task-10](todo-task/task-10.md) routine).
 
 ### React.js / Next.js path
 - React fundamentals
@@ -221,6 +271,8 @@ The learner should split frontend study between modern React-based development a
 ## 6. Full-Stack Integration
 
 Once the basics are complete, the learner should build complete application flows end-to-end.
+
+> **Workflow:** every milestone below gets committed and logged like a JS topic — [task-06](todo-task/task-06.md) for Git, [task-10](todo-task/task-10.md) for progress.
 
 ### Integration milestones
 - API built with Node.js and Express
@@ -290,8 +342,8 @@ Because the process matters, the learner should adopt software engineering habit
 
 ### Workflow expectations
 - maintain a GitHub repository for learning work
-- commit changes daily
-- use Google Sheets to track progress
+- commit changes daily — first learned in [task-06](todo-task/task-06.md)
+- use Google Sheets to track progress — see [task-10](todo-task/task-10.md)
 - update a Kanban board with current tasks and status
 - track learning blocks, practice work, and blockers
 
@@ -299,27 +351,31 @@ Because the process matters, the learner should adopt software engineering habit
 
 ## 9. Recommended Learning Progression
 
-1. Setup Git, Node.js, VS Code, GitHub
-2. Complete JavaScript fundamentals
-3. Learn ES6 and asynchronous JavaScript
-4. Study OOP and application design patterns
-5. Learn Node.js and Express.js
-6. Build REST APIs and CRUD projects
-7. Learn React.js / Next.js basics
-8. Learn Angular basics
-9. Build full-stack applications end-to-end
-10. Learn AWS core services and deployment patterns
-11. Deploy applications on AWS
-12. Track progress weekly using Git, GitHub, and Kanban
+Follow this global order. Sections 1–2 (environment + JavaScript) are fully guided by `todo-task/` and `programiz-learning/` above; later sections are roadmap material you execute the same way (study → commit → log):
+
+1. Setup Git, Node.js, VS Code, GitHub → [todo-task/task-01](todo-task/task-01.md) through [task-06](todo-task/task-06.md)
+2. Complete JavaScript fundamentals → [programiz-learning/](programiz-learning/) in Srno order, scheduled by [task-08](todo-task/task-08.md)
+3. Learn ES6 and asynchronous JavaScript → sections `07-JS-ES6` and `08-JavaScript-Asynchronous` inside [programiz-learning/](programiz-learning/)
+4. Study OOP and application design patterns → sections `04-JS-Objects` then `07-JS-ES6` classes material
+5. Learn Node.js and Express.js → [§4 below](#4-backend-development-with-nodejs), environment already from [task-03](todo-task/task-03.md)
+6. Build REST APIs and CRUD projects → [§6 below](#6-full-stack-integration)
+7. Learn React.js / Next.js basics → [§5 below](#5-frontend-development-reactjs--nextjs-and-angular)
+8. Learn Angular basics → [§5 below](#5-frontend-development-reactjs--nextjs-and-angular)
+9. Build full-stack applications end-to-end → [§6 below](#6-full-stack-integration)
+10. Learn AWS core services and deployment patterns → [§7 below](#7-aws-cloud-engineer-track)
+11. Deploy applications on AWS → [§7 below](#7-aws-cloud-engineer-track)
+12. Track progress weekly using Git, GitHub, and Kanban → the [task-10](todo-task/task-10.md) routine, applied to every section above
 
 ---
 
 ## 10. Daily Practice Requirement
 
+Apply this from Day 1 ([task-06](todo-task/task-06.md) teaches the Git half, [task-10](todo-task/task-10.md) teaches the Sheet half):
+
 The learner should maintain the following every day:
-- Git repository for the learning work
+- Git repository for the learning work ([task-06](todo-task/task-06.md))
 - daily commits
-- Google Sheet progress tracker
+- Google Sheet progress tracker ([task-10](todo-task/task-10.md))
 - Kanban-style task board
 - notes on concepts learned and completed tasks
 - at least one small practice or coding task per day
