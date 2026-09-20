@@ -2,8 +2,8 @@
 
 **Goal:** Turn the Programiz JavaScript tracking sheet into a concrete, day-by-day learning plan you can execute and mark off.
 
-> **Source file:** `programiz-learning/Programiz-JavaScript-Tracking-Sheet.xls`
-> Mirrors: `Programiz-JavaScript-Tracking-Sheet.csv` and `.md` in the same folder (same 59 topics, same Estimated Hours).
+> **Source file:** `programiz-learning/Programiz-JavaScript-Tracking-Sheet.xls` (live Google Sheet: [Programiz-JavaScript-Tracking-Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326))
+> Mirror: `Programiz-JavaScript-Tracking-Sheet.md` in the same folder (same 59 topics, same Estimated Hours).
 
 ---
 
