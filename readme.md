@@ -3,7 +3,7 @@
 > **New here? Start here and follow this file top to bottom — no human help needed.**
 >
 > 1. **Read this hub fully once** (~5 min) to understand where everything lives.
-> 2. **Do the tasks in order:** start at [todo-task/task-01](todo-task/task-01-setup-install-scoop.md) and finish each task's ✅ checklist before opening the next file. Each file links to its successor, so you never have to guess what comes next.
+> 2. **Do the tasks in order:** open the [todo-task master index](todo-task/README.md) (lists all 11 tasks with links), start at [task-01](todo-task/task-01-setup-install-scoop.md), and finish each task's ✅ checklist before opening the next file. Each file links to its successor, so you never have to guess what comes next.
 > 3. **Study JavaScript daily** in [programiz-learning/](programiz-learning/) following [task-08](todo-task/task-08-js-learning-plan-schedule.md) (the 11-week schedule) and [task-10](todo-task/task-10-daily-execution-google-sheet.md) (the daily routine + Google Sheet logging).
 > 4. **Use the repo map below** whenever you're lost: it shows every part of this repo and exactly which file to open next.
 
