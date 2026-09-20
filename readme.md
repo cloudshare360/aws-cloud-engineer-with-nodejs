@@ -15,7 +15,7 @@ This roadmap is organized for an associate who wants to become an AWS Cloud Engi
 
 | Order | Where | What you do there | Entry file |
 |---|---|---|---|
-| 1 | [todo-task/](todo-task/) | **Order of execution** — one task per file, numbered 01 → 11 | [task-01](todo-task/task-01-setup-install-scoop.md) |
+| 1 | [todo-task/](todo-task/) | **Order of execution** — one task per file, numbered 01 → 11 | [master index](todo-task/README.md) |
 | 2 | [How-To-Do/](How-To-Do/) | **How** each setup step is executed — deep-dive guides, cheatsheets, screenshots | per-tool README |
 | 3 | [programiz-learning/](programiz-learning/) | **Content** — offline JavaScript curriculum: 59 topics, 9 sections, `index.md` notes + images | [README](programiz-learning/README.md) |
 | 4 | [Google Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) | **Progress** — daily log: Planned vs Actual dates + Remarks per topic ([task-10](todo-task/task-10-daily-execution-google-sheet.md)) | live tracker |

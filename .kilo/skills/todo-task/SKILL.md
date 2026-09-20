@@ -5,7 +5,7 @@ description: Execute the todo-task setup and learning series (task-01 through ta
 
 # Todo-Task Series Executor
 
-Follow the ordered setup series in `todo-task/` before any other learning work. Tasks run in strict numeric order; each task's completion checklist gates the next one.
+Follow the ordered setup series in `todo-task/` before any other learning work. Tasks run in strict numeric order; each task's completion checklist gates the next one. Master list: [todo-task/README.md](../../../todo-task/README.md).
 
 ## Task Order and What Each Produces
 
