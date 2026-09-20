@@ -1,10 +1,10 @@
-# Todo-Task Master Index — All 11 Tasks in Execution Order
+# Todo-Task Master Index — All 13 Tasks in Execution Order
 
 > **Single source of truth for the task sequence.** This file is linked from the [readme hub](../readme.md) (Repo Map, row 1). Start at Task 01 and do not skip — each task's ✅ checklist gates the next.
 >
 > **File naming:** `task-NN-<what-it-does>.md` — the number is the order, the suffix is the content.
 
-## Task List (01 → 11)
+## Task List (01 → 13)
 
 | # | Task file | What it does | Key verification | Next |
 |---|---|---|---|---|
@@ -18,7 +18,9 @@
 | 08 | [task-08-js-learning-plan-schedule.md](task-08-js-learning-plan-schedule.md) | Turn the tracking sheet into an 11-week, 83-hour study schedule; fill Planned dates | Planned dates for all 59 rows | 09 |
 | 09 | [task-09-learn-git-concepts.md](task-09-learn-git-concepts.md) | Understand Git concepts via git-scm.com/learn (Pro Git, videos, cheatsheet) | Checkpoints 1–7 done | 10 |
 | 10 | [task-10-daily-execution-google-sheet.md](task-10-daily-execution-google-sheet.md) | Daily routine: study topics in order, log Actual dates in the Google Sheet | One full study day logged | 11 |
-| 11 | [task-11-install-kilo-cli-vscode.md](task-11-install-kilo-cli-vscode.md) | Install Kilo CLI + VS Code extension; free-first cascade + pay-as-you-go tiers | `kilo --version` on free model | → [readme roadmap](../readme.md) |
+| 11 | [task-11-install-kilo-cli-vscode.md](task-11-install-kilo-cli-vscode.md) | Install Kilo CLI + VS Code extension; free-first cascade + pay-as-you-go tiers | `kilo --version` on free model | 12 |
+| 12 | [task-12-kanban.md](task-12-kanban.md) | 🚧 Placeholder — Kanban board for learning work (columns, cards, WIP limits) | Board created + daily card movement | 13 |
+| 13 | [task-13-scrum.md](task-13-scrum.md) | 🚧 Placeholder — run learning work in Scrum sprints (plan, review, retro) | One full sprint completed | → [readme roadmap](../readme.md) |
 
 ## Grouped by phase
 
@@ -28,6 +30,7 @@
 | **Git & GitHub** | 06–07 | Own repo pushed daily; private documents repo |
 | **Learning engine** | 08–10 | 11-week JS schedule → Git concepts → daily execution loop with the Sheet |
 | **Agentic tooling** | 11 | Kilo CLI + VS Code extension; free tier first, paid only on escalation |
+| **Process & practice** | 12–13 | 🚧 Placeholders — Kanban board + Scrum sprints for learning work |
 
 ## Status legend
 

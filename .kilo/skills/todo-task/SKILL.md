@@ -5,7 +5,7 @@ description: Execute the todo-task setup and learning series (task-01 through ta
 
 # Todo-Task Series Executor
 
-Follow the ordered setup series in `todo-task/` before any other learning work. Tasks run in strict numeric order; each task's completion checklist gates the next one. Master list: [todo-task/README.md](../../../todo-task/README.md).
+Follow the ordered setup series in `todo-task/` before any other learning work. Tasks run in strict numeric order; each task's completion checklist gates the next one. Master list: [todo-task/README.md](../../../todo-task/README.md). Tasks 12–13 (Kanban, Scrum) are defined placeholders awaiting full content.
 
 ## Task Order and What Each Produces
 
@@ -22,6 +22,8 @@ Follow the ordered setup series in `todo-task/` before any other learning work. 
 | 09 | `todo-task/task-09-learn-git-concepts.md` | Git concepts (git-scm.com/learn) |
 | 10 | `todo-task/task-10-daily-execution-google-sheet.md` | Daily execution routine + Google Sheet setup |
 | 11 | `todo-task/task-11-install-kilo-cli-vscode.md` | Kilo CLI + VS Code extension, free vs paid tiers |
+| 12 | `todo-task/task-12-kanban.md` | 🚧 Placeholder — Kanban board for learning work |
+| 13 | `todo-task/task-13-scrum.md` | 🚧 Placeholder — Scrum sprints for learning work |
 
 ## Execution Rules
 

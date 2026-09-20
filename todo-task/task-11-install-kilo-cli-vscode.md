@@ -299,4 +299,4 @@ Plus productivity features worth learning early: **Checkpoints** (save/restore s
 - [ ] Enabled cost controls / spend awareness before any paid usage
 - [ ] Tried Code / Ask / Plan modes and know when to use each
 
-**Done with Task 11?** → Continue with the roadmap in the root `readme.md`
+**Done with Task 11?** → Move on to [task-12-kanban.md](task-12-kanban.md)
