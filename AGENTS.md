@@ -30,10 +30,12 @@ This repository is a learning roadmap and documentation workspace for AWS cloud 
 - How-To-Do/git-github/ — **how** each Git/GitHub step is executed (deep-dive guides, cheatsheets)
 - How-To-Do/nodejs/ — **how** each Node.js step is executed
 - How-To-Do/vscode/ — **how** each VS Code step is executed
-- How-To-Do/github-codespaces/
 - todo-task/task-01.md … task-11.md — **execution order**: the numbered sequence; each task's ✅ checklist gates the next file
-- programiz-learning/ — **study content + tracking sheet**: 59 JS topics with offline `index.md` notes; the `.xls`/`.md` tracking sheet is the planning + self-tracking instrument (Planned dates = commitment, Actual dates = execution)
-- readme.md for the main roadmap
+- programiz-learning/ — **study content + tracking sheet**: 59 JS topics with offline `index.md` notes; the `.xls`/`.md` tracking sheet is the planning + self-tracking instrument (Planned dates = commitment, Actual dates = execution). Its README holds the **canonical topic table** (Srno → URL → folder → hours) — never duplicate that list elsewhere
+- docs/readme/read_*.md — the roadmap's 11 sections, one file each (the root readme.md is the hub/index)
+- docs/sdlc/ — SDLC phase docs + traceability matrix
+- email/ — reusable email templates
+- readme.md — hub: Repo map, Roadmap Sections index, anti-duplication rules
 
 ## Documentation expectations
 - Explain prerequisites, installation steps, and verification commands.

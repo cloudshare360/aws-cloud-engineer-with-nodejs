@@ -33,7 +33,7 @@ Follow the ordered setup series in `todo-task/` before any other learning work. 
 
 ## Related Documentation
 
-- `readme.md` — Repo map, §2 setup, §3 JavaScript, §9 progression, §10 daily practice.
+- `readme.md` — hub: Repo map + Roadmap Sections index + anti-duplication rules. Section detail lives in `docs/readme/read_*.md` (§2 setup, §3 JavaScript, §9 progression, §10 daily practice).
 - `programiz-learning/README.md` — JavaScript content map (59 topics, 9 sections).
 - `.kilo/skills/javascript-roadmap/` — JS topic progression.
 - `.kilo/skills/git-workflow/` — commit/push discipline.

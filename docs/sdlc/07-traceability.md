@@ -41,9 +41,9 @@ Section → Srno → folder (condensed; full list in the tracking sheet):
 
 | Req | readme section | State |
 |---|---|---|
-| FR-08 nav | Repo map + §2 task list + §3 content links | Done |
-| §4–§7 (Node/React/Angular/AWS) | Roadmap text only | Not yet built as tasks/content — future work follows the same three-layer pattern |
-| FR-02/06 discipline | §8, §10 + agile-practice skill | Done |
+| FR-08 nav | readme hub Repo map + Roadmap Sections index + §2 task list + §3 content links | Done |
+| §4–§7 (Node/React/Angular/AWS) | docs/readme/read_backend_nodejs, read_frontend, read_fullstack_integration, read_aws_track | Roadmap text only — not yet built as tasks/content; future work follows the same three-layer pattern |
+| FR-02/06 discipline | §8 read_process_practice, §10 read_daily_practice + agile-practice skill | Done |
 
 ## Agent/config traceability
 

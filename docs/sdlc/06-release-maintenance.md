@@ -22,6 +22,6 @@ If either end 404s (renamed repo, moved Sheet), fix in the same commit that caus
 
 ## Ongoing upkeep
 
-- New roadmap sections (§4–§7 material) arrive as new `todo-task/` files + `programiz-learning/`-style content + traceability rows — same three-layer pattern.
+- New roadmap sections (§4–§7 material in [docs/readme/](../readme/)) arrive as new `todo-task/` files + `programiz-learning/`-style content + traceability rows — same three-layer pattern.
 - Free-model mapping changes server-side; re-check [kilo.ai/models](https://kilo.ai/models) monthly and update task-11 if picks go stale.
 - Rotate the GitHub PAT if ever pasted anywhere except `C:\Users\sricloud\.env`; never commit it.

@@ -1,6 +1,6 @@
 # 01 — Requirements (What This Workspace Must Achieve)
 
-Source of truth for *why* the repo exists. Derived from `readme.md` §1 (Career Outcome), §2 (Day 1), §9 (Progression), and §10 (Daily Practice).
+Source of truth for *why* the repo exists. Derived from `readme.md` (hub) and its split sections in `docs/readme/`: §1 [read_career_outcome](../readme/read_career_outcome.md), §2 [read_setup_environment](../readme/read_setup_environment.md), §9 [read_progression](../readme/read_progression.md), §10 [read_daily_practice](../readme/read_daily_practice.md).
 
 ## Functional requirements
 
@@ -13,7 +13,7 @@ Source of truth for *why* the repo exists. Derived from `readme.md` §1 (Career 
 | FR-05 | Learner understands Git concepts beyond memorized commands | todo-task/task-09 (git-scm.com/learn) |
 | FR-06 | Learner studies topics in order and logs progress daily in the Google Sheet | todo-task/task-10 + Sheet Actual-date columns |
 | FR-07 | Learner uses Kilo CLI + VS Code extension with free-first, pay-as-you-go fallback | todo-task/task-11 + `.kilo/kilo.json` free-first defaults |
-| FR-08 | Any file in the repo is reachable from `readme.md` within two clicks | readme repo map + §2 task list + §3 content links |
+| FR-08 | Any file in the repo is reachable from `readme.md` within two clicks | readme hub Repo map + Roadmap Sections index + §2 task list + §3 content links |
 
 ## Non-functional requirements
 
@@ -28,5 +28,5 @@ Source of truth for *why* the repo exists. Derived from `readme.md` §1 (Career 
 
 ## Out of scope
 
-- Framework/AWS/backend sections (§4–§7 of readme) are roadmap material, not yet built out as `todo-task/` files or `programiz-learning/` content.
+- Framework/AWS/backend sections (§4–§7: [read_backend_nodejs](../readme/read_backend_nodejs.md), [read_frontend](../readme/read_frontend.md), [read_fullstack_integration](../readme/read_fullstack_integration.md), [read_aws_track](../readme/read_aws_track.md)) are roadmap material, not yet built out as `todo-task/` files or `programiz-learning/` content.
 - The Google Sheet itself lives outside the repo (Drive); only its links and setup live here.
