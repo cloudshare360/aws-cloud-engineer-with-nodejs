@@ -207,4 +207,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] Files visible on github.com in the browser
 - [ ] Second change committed and pushed using the plain `edit → add → commit → push` loop
 
-**Done with Task 06?** → Move on to `task-07.md`
+**Done with Task 06?** → Move on to `task-07-personal-documents-repo.md`

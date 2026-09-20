@@ -9,16 +9,16 @@ JavaScript is the foundation for frontend, backend, and serverless development.
 - **Canonical topic table (single source of truth):** [programiz-learning/README.md](../../programiz-learning/README.md) — all 59 topics with Srno, Programiz URL, Estimated Hours, and local folder link. **Do not duplicate this list anywhere else; link to it.**
 - Offline notes: [programiz-learning/javascript/](../../programiz-learning/) — each topic folder holds `index.md` + `images/`. Study **in Srno order** (`01-01` → `09-10`), never at random.
 - Progress tracker: [Programiz-JavaScript-Tracking-Sheet.md](../../programiz-learning/Programiz-JavaScript-Tracking-Sheet.md) mirror (live version in the Google Sheet below)
-- Execution plan: [todo-task/task-08](../../todo-task/task-08.md) — 11-week schedule from the tracking sheet. Planned dates go here.
-- Daily routine: [todo-task/task-10](../../todo-task/task-10.md) — study topics in order, log Actual dates in the Google Sheet
-- AI assistance: [todo-task/task-11](../../todo-task/task-11.md) — Kilo CLI + VS Code extension for agentic help during study
+- Execution plan: [todo-task/task-08](../../todo-task/task-08-js-learning-plan-schedule.md) — 11-week schedule from the tracking sheet. Planned dates go here.
+- Daily routine: [todo-task/task-10](../../todo-task/task-10-daily-execution-google-sheet.md) — study topics in order, log Actual dates in the Google Sheet
+- AI assistance: [todo-task/task-11](../../todo-task/task-11-install-kilo-cli-vscode.md) — Kilo CLI + VS Code extension for agentic help during study
 
 ## Google Sheet ↔ GitHub navigation
 
 - One rule: **content lives in the repo, progress lives in the Sheet.** The repo's `index.md` files never record progress; the Sheet's Actual-date cells never hold study material.
 - The repo links to the Sheet here: 📊 **Progress Tracker (Google Sheet):** [Programiz-JavaScript-Tracking-Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) — the live tracker (files also in the [Drive folder](https://drive.google.com/drive/folders/1PaVJ8ad7RsiG15DTxDZJE6uAa_ubPFB8?usp=sharing)).
 - The Sheet links back to the repo: add a `NAVIGATION` row with `=HYPERLINK("<this-repo-url>/tree/main/programiz-learning","← Open programiz-learning on GitHub")`.
-- Once both links exist, a study day is: Sheet row (today's Srno) → References URL or local `programiz-learning/javascript/<section>/<topic>/index.md` → study → Sheet row (fill Actual dates). See [task-10](../../todo-task/task-10.md) for the full loop.
+- Once both links exist, a study day is: Sheet row (today's Srno) → References URL or local `programiz-learning/javascript/<section>/<topic>/index.md` → study → Sheet row (fill Actual dates). See [task-10](../../todo-task/task-10-daily-execution-google-sheet.md) for the full loop.
 
 ## Section-by-section study focus (no URL lists here — see the canonical table)
 

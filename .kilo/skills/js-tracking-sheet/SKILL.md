@@ -12,8 +12,8 @@ The tracking sheet is the learner's self-tracking instrument. Agent sessions tha
 | Concern | Source |
 |---|---|
 | What to study (content) | `programiz-learning/javascript/<section>/<topic>/index.md` in Srno order |
-| How to plan | `todo-task/task-08.md` (11-week schedule, Planned dates) |
-| How to execute daily | `todo-task/task-10.md` (study → commit → log) |
+| How to plan | `todo-task/task-08-js-learning-plan-schedule.md` (11-week schedule, Planned dates) |
+| How to execute daily | `todo-task/task-10-daily-execution-google-sheet.md` (study → commit → log) |
 | Progress state | Google Sheet Actual Start/End Date cells |
 | Offline sheet mirror | `programiz-learning/Programiz-JavaScript-Tracking-Sheet.md` |
 
@@ -36,6 +36,6 @@ The tracking sheet is the learner's self-tracking instrument. Agent sessions tha
 ## Related Documentation
 
 - `programiz-learning/README.md` — content map + Sheet ↔ GitHub navigation.
-- `todo-task/task-08.md` — schedule tables and milestones.
-- `todo-task/task-10.md` — daily routine and Sheet setup.
+- `todo-task/task-08-js-learning-plan-schedule.md` — schedule tables and milestones.
+- `todo-task/task-10-daily-execution-google-sheet.md` — daily routine and Sheet setup.
 - `.kilo/skills/javascript-roadmap/` — topic progression theory.

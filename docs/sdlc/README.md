@@ -6,7 +6,7 @@
 
 | Layer | Folder | Role in SDLC terms |
 |---|---|---|
-| **Order** | `todo-task/task-01.md` → `task-11.md` | The **process**: what happens, in what sequence, with what exit gate |
+| **Order** | `todo-task/task-01-setup-install-scoop.md` → `task-11-install-kilo-cli-vscode.md` | The **process**: what happens, in what sequence, with what exit gate |
 | **How** | `How-To-Do/` | The **procedure**: step-by-step execution for each setup task |
 | **What** | `programiz-learning/` | The **work product**: 59-topic JS curriculum + tracking sheet (content + progress data) |
 
@@ -18,7 +18,7 @@ Same idea as classic SDLC: requirements say *what order*, design says *how*, the
 |---|---|---|---|---|
 | 01 | Requirements | [docs/sdlc/01-requirements.md](01-requirements.md) | readme §1–§2 | Learner can state the career outcome and Day-1 tool list from memory |
 | 02 | Design | [docs/sdlc/02-design.md](02-design.md) | readme repo map | Learner can draw the todo→How-To→programiz flow without looking |
-| 03 | Implementation (environment) | [docs/sdlc/03-implementation.md](03-implementation.md) | todo-task/task-01.md | `scoop / python / node / java / git / kilo --version` all print versions |
+| 03 | Implementation (environment) | [docs/sdlc/03-implementation.md](03-implementation.md) | todo-task/task-01-setup-install-scoop.md | `scoop / python / node / java / git / kilo --version` all print versions |
 | 04 | Verification | [docs/sdlc/04-verification.md](04-verification.md) | todo-task checklists | Every task-01…11 ✅ checklist ticked; no skipped gates |
 | 05 | Execution (learning sprints) | [docs/sdlc/05-execution.md](05-execution.md) | task-08 + task-10 | Sheet Actual dates filled same-day; practice commits pushed daily |
 | 06 | Release & maintenance | [docs/sdlc/06-release-maintenance.md](06-release-maintenance.md) | task-07, Sheet sharing | Sheet ↔ repo links live; employer artifacts shareable; repo pushed clean |
@@ -29,7 +29,7 @@ Full requirement → task → guide → content → tracker mapping lives in [do
 
 ## Conventions used by every SDLC doc
 
-- Paths are repo-relative (`todo-task/task-03.md`, not absolute Windows paths).
+- Paths are repo-relative (`todo-task/task-03-install-nodejs-scoop.md`, not absolute Windows paths).
 - `Srno 1–59` always means the tracking-sheet row order — folders, schedule, and Sheet share it.
 - Planned dates = commitment; Actual dates = execution; `Actual − Planned` = the self-tracking signal.
 - Windows 11 + PowerShell, no admin rights, per-user installs (see `AGENTS.md`).

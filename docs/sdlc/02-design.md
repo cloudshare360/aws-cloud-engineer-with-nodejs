@@ -28,7 +28,7 @@ Rules:
 
 ## Agent design
 
-- `.kilo/kilo.json`: free-first model defaults (`kilo-auto/free` for main/small/subagent/compaction), scoped edit/bash permissions, `AGENTS.md` + `task-11.md` as instructions.
+- `.kilo/kilo.json`: free-first model defaults (`kilo-auto/free` for main/small/subagent/compaction), scoped edit/bash permissions, `AGENTS.md` + `task-11-install-kilo-cli-vscode.md` as instructions.
 - Skills: `todo-task` (order), `js-tracking-sheet` (Sheet workflow), `kilo-onboarding` (Kilo setup + cost rules), plus topic skills (`git-workflow`, `javascript-roadmap`, `nodejs-setup`, …).
 - `AGENTS.md`: Windows 11 + PowerShell constraints (script-files over inline one-liners), folder roles, validation checklist.
 

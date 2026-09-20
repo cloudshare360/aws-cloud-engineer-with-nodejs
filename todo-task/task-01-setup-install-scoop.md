@@ -180,4 +180,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] `scoop --version` / `brew --version` works
 - [ ] At least one tool installed through the package manager (e.g., git)
 
-**Done with Task 01?** → Move on to `task-02.md`
+**Done with Task 01?** → Move on to `task-02-install-python-scoop.md`

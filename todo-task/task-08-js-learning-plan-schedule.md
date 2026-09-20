@@ -230,4 +230,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] Wrote milestone summaries for at least Section 1 (JS Introduction)
 - [ ] Set a recurring weekly reminder (Mon–Fri) for your study slot
 
-**Done with Task 08?** → Move on to `task-09.md`
+**Done with Task 08?** → Move on to `task-09-learn-git-concepts.md`

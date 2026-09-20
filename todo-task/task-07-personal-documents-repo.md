@@ -209,4 +209,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] Decided and documented your preferred sharing method (direct file / collaborator / ZIP)
 - [ ] No SSN, passwords, or raw secrets anywhere inside the repo
 
-**Done with Task 07?** → Move on to `task-08.md`
+**Done with Task 07?** → Move on to `task-08-js-learning-plan-schedule.md`

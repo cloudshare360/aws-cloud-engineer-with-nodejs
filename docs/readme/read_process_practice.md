@@ -17,8 +17,8 @@ Because the process matters, the learner should adopt software engineering habit
 ## Workflow expectations
 
 - maintain a GitHub repository for learning work
-- commit changes daily — first learned in [task-06](../../todo-task/task-06.md)
-- use Google Sheets to track progress — see [task-10](../../todo-task/task-10.md)
+- commit changes daily — first learned in [task-06](../../todo-task/task-06-create-git-repo.md)
+- use Google Sheets to track progress — see [task-10](../../todo-task/task-10-daily-execution-google-sheet.md)
 - update a Kanban board with current tasks and status
 - track learning blocks, practice work, and blockers
 

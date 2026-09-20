@@ -251,4 +251,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] Cloned a public repository successfully
 - [ ] (If needed) PAT or SSH key set up for pushing to GitHub
 
-**Done with Task 05?** → Move on to `task-06.md`
+**Done with Task 05?** → Move on to `task-06-create-git-repo.md`

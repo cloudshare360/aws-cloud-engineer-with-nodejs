@@ -35,7 +35,7 @@ This is the "vice versa" half: the Sheet links back to the repo.
 3. (Optional) Add a second link to the daily guide:
 
 ```
-=HYPERLINK("https://github.com/cloudshare360/aws-cloud-engineer-with-nodejs/blob/main/todo-task/task-10.md","← Today's routine (task-10)")
+=HYPERLINK("https://github.com/cloudshare360/aws-cloud-engineer-with-nodejs/blob/main/todo-task/task-10-daily-execution-google-sheet.md","← Today's routine (task-10)")
 ```
 
 ### Step 2 — Note the GitHub → Sheet Link (already done)
@@ -72,7 +72,7 @@ Do this every study day, in order:
 | Sheet `NAVIGATION` row | ← Open programiz-learning | The content folders |
 | Sheet `References` cell | Programiz URL | The online tutorial |
 | Sheet `Sub-Task-Level2` text | (match by name) | `javascript/<section>/<topic>/index.md` offline notes |
-| Repo `todo-task/task-10.md` | This file | The daily routine |
+| Repo `todo-task/task-10-daily-execution-google-sheet.md` | This file | The daily routine |
 
 ---
 

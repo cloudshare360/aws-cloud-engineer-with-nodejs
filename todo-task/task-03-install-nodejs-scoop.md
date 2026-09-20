@@ -128,4 +128,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] Ran `node -e "..."` successfully
 - [ ] Installed and removed one global npm package
 
-**Done with Task 03?** → Move on to `task-04.md`
+**Done with Task 03?** → Move on to `task-04-install-oracle-jdk21-scoop.md`

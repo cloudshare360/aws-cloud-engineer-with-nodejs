@@ -148,4 +148,4 @@ Compile and run it the same way (`javac VThread.java` then `java VThread`).
 - [ ] `$env:JAVA_HOME` points inside `C:\Users\<username>\scoop\`
 - [ ] Compiled and ran `Hello.java` successfully
 
-**Done with Task 04?** → Move on to `task-05.md`
+**Done with Task 04?** → Move on to `task-05-install-git-gitbash-path.md`

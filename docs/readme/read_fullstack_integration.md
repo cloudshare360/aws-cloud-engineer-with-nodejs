@@ -4,7 +4,7 @@
 
 Once the basics are complete, the learner should build complete application flows end-to-end.
 
-> **Workflow:** every milestone below gets committed and logged like a JS topic — [task-06](../../todo-task/task-06.md) for Git, [task-10](../../todo-task/task-10.md) for progress.
+> **Workflow:** every milestone below gets committed and logged like a JS topic — [task-06](../../todo-task/task-06-create-git-repo.md) for Git, [task-10](../../todo-task/task-10-daily-execution-google-sheet.md) for progress.
 
 ## Integration milestones
 

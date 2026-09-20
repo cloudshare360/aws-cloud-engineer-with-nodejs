@@ -123,4 +123,4 @@ While this file gives the **order**, the **how** lives in these guides — open 
 - [ ] Completed checkpoints 1–7 above in a scratch repo
 - [ ] Can explain: three states, snapshot model, merge vs rebase, fetch vs pull
 
-**Done with Task 09?** → Move on to `task-10.md`
+**Done with Task 09?** → Move on to `task-10-daily-execution-google-sheet.md`

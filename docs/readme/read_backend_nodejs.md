@@ -4,7 +4,7 @@
 
 Node.js is the foundation for backend services, APIs, and cloud-ready application logic.
 
-> **Environment ready?** If you did [task-03](../../todo-task/task-03.md), `node --version` already works. If not, complete task-03 first — every command below assumes it.
+> **Environment ready?** If you did [task-03](../../todo-task/task-03-install-nodejs-scoop.md), `node --version` already works. If not, complete task-03 first — every command below assumes it.
 
 ## Node.js learning resources (single home)
 

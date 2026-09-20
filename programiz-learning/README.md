@@ -1,6 +1,6 @@
 # Programiz JavaScript Learning
 
-> **How this folder fits the roadmap:** you arrive here from [todo-task/task-08](../todo-task/task-08.md) (the 11-week schedule). Study the topics below **in Srno order**, one study day at a time; log each finished topic in the Google Sheet per [todo-task/task-10](../todo-task/task-10.md). When the Sheet says "done", the roadmap's [§3 JavaScript](../docs/readme/read_javascript.md) says "done".
+> **How this folder fits the roadmap:** you arrive here from [todo-task/task-08](../todo-task/task-08-js-learning-plan-schedule.md) (the 11-week schedule). Study the topics below **in Srno order**, one study day at a time; log each finished topic in the Google Sheet per [todo-task/task-10](../todo-task/task-10-daily-execution-google-sheet.md). When the Sheet says "done", the roadmap's [§3 JavaScript](../docs/readme/read_javascript.md) says "done".
 
 > **This file is the single source of truth** for the Programiz topic list (name → URL → local folder → estimated hours). Other docs link here instead of repeating the list.
 
@@ -150,7 +150,7 @@ Columns (same in all mirrors):
 
 ## Progress Tracking — Google Sheet ↔ GitHub
 
-Daily progress lives in the **Google Sheet** (created from the `.xls` — see [todo-task/task-10](../todo-task/task-10.md)):
+Daily progress lives in the **Google Sheet** (created from the `.xls` — see [todo-task/task-10](../todo-task/task-10-daily-execution-google-sheet.md)):
 
 - 📊 **Progress Tracker (Google Sheet):** [Programiz-JavaScript-Tracking-Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) — the live tracker (files also in the [Drive folder](https://drive.google.com/drive/folders/1PaVJ8ad7RsiG15DTxDZJE6uAa_ubPFB8?usp=sharing)).
 - In the Sheet, add a `NAVIGATION` row with `=HYPERLINK("<this-repo>/tree/main/programiz-learning","← Open programiz-learning on GitHub")` so the Sheet links back here.
@@ -163,5 +163,5 @@ Study strictly in `Srno` order — the folder prefixes already encode it (`01-01
 1. Start with `javascript/01-JS-Introduction/01-01-Getting Started/index.md`
 2. Read `index.md` in each topic folder for the full article content
 3. Check that topic's `images/` subfolder for diagrams/screenshots
-4. After finishing a topic, update its row in the Google Sheet (Actual dates + Remarks) — see [task-10](../todo-task/task-10.md)
+4. After finishing a topic, update its row in the Google Sheet (Actual dates + Remarks) — see [task-10](../todo-task/task-10-daily-execution-google-sheet.md)
 5. The next topic is the next `Srno` in [the tracking sheet](Programiz-JavaScript-Tracking-Sheet.md) — never skip ahead

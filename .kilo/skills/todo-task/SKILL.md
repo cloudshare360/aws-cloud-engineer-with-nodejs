@@ -11,17 +11,17 @@ Follow the ordered setup series in `todo-task/` before any other learning work. 
 
 | Task | File | Produces |
 |---|---|---|
-| 01 | `todo-task/task-01.md` | Package manager (Scoop on Windows / Homebrew on macOS) |
-| 02 | `todo-task/task-02.md` | Python via Scoop |
-| 03 | `todo-task/task-03.md` | Node.js via Scoop |
-| 04 | `todo-task/task-04.md` | Oracle JDK 21 via Scoop |
-| 05 | `todo-task/task-05.md` | Git + Git Bash tools on user PATH |
-| 06 | `todo-task/task-06.md` | First Git repo + GitHub push |
-| 07 | `todo-task/task-07.md` | Private personal-documents repo |
-| 08 | `todo-task/task-08.md` | 11-week JavaScript schedule (fills Planned dates) |
-| 09 | `todo-task/task-09.md` | Git concepts (git-scm.com/learn) |
-| 10 | `todo-task/task-10.md` | Daily execution routine + Google Sheet setup |
-| 11 | `todo-task/task-11.md` | Kilo CLI + VS Code extension, free vs paid tiers |
+| 01 | `todo-task/task-01-setup-install-scoop.md` | Package manager (Scoop on Windows / Homebrew on macOS) |
+| 02 | `todo-task/task-02-install-python-scoop.md` | Python via Scoop |
+| 03 | `todo-task/task-03-install-nodejs-scoop.md` | Node.js via Scoop |
+| 04 | `todo-task/task-04-install-oracle-jdk21-scoop.md` | Oracle JDK 21 via Scoop |
+| 05 | `todo-task/task-05-install-git-gitbash-path.md` | Git + Git Bash tools on user PATH |
+| 06 | `todo-task/task-06-create-git-repo.md` | First Git repo + GitHub push |
+| 07 | `todo-task/task-07-personal-documents-repo.md` | Private personal-documents repo |
+| 08 | `todo-task/task-08-js-learning-plan-schedule.md` | 11-week JavaScript schedule (fills Planned dates) |
+| 09 | `todo-task/task-09-learn-git-concepts.md` | Git concepts (git-scm.com/learn) |
+| 10 | `todo-task/task-10-daily-execution-google-sheet.md` | Daily execution routine + Google Sheet setup |
+| 11 | `todo-task/task-11-install-kilo-cli-vscode.md` | Kilo CLI + VS Code extension, free vs paid tiers |
 
 ## Execution Rules
 

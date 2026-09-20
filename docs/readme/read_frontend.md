@@ -4,7 +4,7 @@
 
 The learner should split frontend study between modern React-based development and Angular-based application patterns.
 
-> **Same discipline as JavaScript:** for each framework topic, study → commit ([task-06](../../todo-task/task-06.md) loop) → log in your tracker ([task-10](../../todo-task/task-10.md) routine).
+> **Same discipline as JavaScript:** for each framework topic, study → commit ([task-06](../../todo-task/task-06-create-git-repo.md) loop) → log in your tracker ([task-10](../../todo-task/task-10-daily-execution-google-sheet.md) routine).
 
 ## React.js / Next.js path
 

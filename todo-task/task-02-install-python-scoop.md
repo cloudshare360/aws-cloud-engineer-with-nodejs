@@ -109,4 +109,4 @@ pip installs go to your user site-packages by default (`--user` behavior for out
 - [ ] `where.exe python` shows a path inside `C:\Users\<username>\scoop\`
 - [ ] Ran at least one command with `python -c "..."`
 
-**Done with Task 02?** → Move on to `task-03.md`
+**Done with Task 02?** → Move on to `task-03-install-nodejs-scoop.md`

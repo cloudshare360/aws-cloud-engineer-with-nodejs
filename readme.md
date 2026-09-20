@@ -3,8 +3,8 @@
 > **New here? Start here and follow this file top to bottom — no human help needed.**
 >
 > 1. **Read this hub fully once** (~5 min) to understand where everything lives.
-> 2. **Do the tasks in order:** start at [todo-task/task-01](todo-task/task-01.md) and finish each task's ✅ checklist before opening the next file. Each file links to its successor, so you never have to guess what comes next.
-> 3. **Study JavaScript daily** in [programiz-learning/](programiz-learning/) following [task-08](todo-task/task-08.md) (the 11-week schedule) and [task-10](todo-task/task-10.md) (the daily routine + Google Sheet logging).
+> 2. **Do the tasks in order:** start at [todo-task/task-01](todo-task/task-01-setup-install-scoop.md) and finish each task's ✅ checklist before opening the next file. Each file links to its successor, so you never have to guess what comes next.
+> 3. **Study JavaScript daily** in [programiz-learning/](programiz-learning/) following [task-08](todo-task/task-08-js-learning-plan-schedule.md) (the 11-week schedule) and [task-10](todo-task/task-10-daily-execution-google-sheet.md) (the daily routine + Google Sheet logging).
 > 4. **Use the repo map below** whenever you're lost: it shows every part of this repo and exactly which file to open next.
 
 This roadmap is organized for an associate who wants to become an AWS Cloud Engineer with strong full-stack development skills using Node.js, React.js, Angular, and cloud deployment practices.
@@ -15,10 +15,10 @@ This roadmap is organized for an associate who wants to become an AWS Cloud Engi
 
 | Order | Where | What you do there | Entry file |
 |---|---|---|---|
-| 1 | [todo-task/](todo-task/) | **Order of execution** — one task per file, numbered 01 → 11 | [task-01](todo-task/task-01.md) |
+| 1 | [todo-task/](todo-task/) | **Order of execution** — one task per file, numbered 01 → 11 | [task-01](todo-task/task-01-setup-install-scoop.md) |
 | 2 | [How-To-Do/](How-To-Do/) | **How** each setup step is executed — deep-dive guides, cheatsheets, screenshots | per-tool README |
 | 3 | [programiz-learning/](programiz-learning/) | **Content** — offline JavaScript curriculum: 59 topics, 9 sections, `index.md` notes + images | [README](programiz-learning/README.md) |
-| 4 | [Google Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) | **Progress** — daily log: Planned vs Actual dates + Remarks per topic ([task-10](todo-task/task-10.md)) | live tracker |
+| 4 | [Google Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) | **Progress** — daily log: Planned vs Actual dates + Remarks per topic ([task-10](todo-task/task-10-daily-execution-google-sheet.md)) | live tracker |
 | 5 | [docs/readme/](docs/readme/) | **Roadmap sections** — this file's 12 sections, one per page | [read_career_outcome](docs/readme/read_career_outcome.md) |
 | 6 | [docs/sdlc/](docs/sdlc/) | **Process** — how this workspace maps to SDLC phases | [README](docs/sdlc/README.md) |
 | 7 | [email/](email/) | **Templates** — reusable onboarding email for new learners | [generic-onboarding-email](email/generic-onboarding-email.md) |

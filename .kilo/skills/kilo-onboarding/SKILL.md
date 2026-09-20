@@ -15,7 +15,7 @@ kilo --version
 kilo                           # first run: sign in at https://app.kilo.ai
 ```
 
-VS Code: Extensions → search "Kilo Code" → **Install Pre-Release Version** (per `todo-task/task-11.md`).
+VS Code: Extensions → search "Kilo Code" → **Install Pre-Release Version** (per `todo-task/task-11-install-kilo-cli-vscode.md`).
 
 ## Session Defaults
 
@@ -39,7 +39,7 @@ VS Code: Extensions → search "Kilo Code" → **Install Pre-Release Version** (
 
 ## Related Documentation
 
-- `todo-task/task-11.md` — full install + free/paid walkthrough.
+- `todo-task/task-11-install-kilo-cli-vscode.md` — full install + free/paid walkthrough.
 - `.kilo/skills/todo-task/` — ordered setup execution.
 - `.kilo/skills/git-workflow/` — commit/push discipline.
 - `AGENTS.md` — repo conventions.
