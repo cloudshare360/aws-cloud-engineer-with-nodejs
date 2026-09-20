@@ -78,7 +78,7 @@ Columns (same in all mirrors):
 
 Daily progress lives in the **Google Sheet** (created from the `.xls` — see [todo-task/task-10](../todo-task/task-10.md)):
 
-- 📊 **Progress Tracker (Google Sheet):** `PASTE_SHEET_URL_HERE`
+- 📊 **Progress Tracker (Google Sheet):** [Programiz-JavaScript-Tracking-Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) — the live tracker (files also in the [Drive folder](https://drive.google.com/drive/folders/1PaVJ8ad7RsiG15DTxDZJE6uAa_ubPFB8?usp=sharing)).
 - In the Sheet, add a `NAVIGATION` row with `=HYPERLINK("<this-repo>/tree/main/programiz-learning","← Open programiz-learning on GitHub")` so the Sheet links back here.
 - Update the Sheet's `Actual Start/End Date` cells the same day you finish each topic (Task 10, Part B); the repo content (`index.md` files) never changes for progress — the Sheet is the source of truth for progress.
 

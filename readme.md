@@ -101,7 +101,7 @@ JavaScript is the foundation for frontend, backend, and serverless development.
 
 ### Google Sheet ↔ GitHub navigation
 - One rule: **content lives in the repo, progress lives in the Sheet.** The repo's `index.md` files never record progress; the Sheet's Actual-date cells never hold study material.
-- The repo links to the Sheet here: 📊 **Progress Tracker (Google Sheet):** `PASTE_SHEET_URL_HERE` — replace this placeholder with your Sheet URL the day you create it (Task 10, Part A).
+- The repo links to the Sheet here: 📊 **Progress Tracker (Google Sheet):** [Programiz-JavaScript-Tracking-Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) — the live tracker (files also in the [Drive folder](https://drive.google.com/drive/folders/1PaVJ8ad7RsiG15DTxDZJE6uAa_ubPFB8?usp=sharing)).
 - The Sheet links back to the repo: add a `NAVIGATION` row with `=HYPERLINK("<this-repo-url>/tree/main/programiz-learning","← Open programiz-learning on GitHub")`.
 - Once both links exist, a study day is: Sheet row (today's Srno) → References URL or local `programiz-learning/javascript/<section>/<topic>/index.md` → study → Sheet row (fill Actual dates). See [task-10](todo-task/task-10.md) for the full loop.
 

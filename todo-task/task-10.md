@@ -8,20 +8,15 @@
 
 ---
 
-## Part A — Set Up the Google Sheet (One Time)
+## Part A — Open the Google Sheet (Already Created)
 
-### Step 1 — Create the Sheet from the Tracking File
+The live tracker is shared and ready — no upload needed:
 
-Option 1 — upload the `.xls`:
-1. Go to **https://drive.google.com** → **New → File upload** → select `programiz-learning/Programiz-JavaScript-Tracking-Sheet.xls`
-2. Open it with Google Sheets (it converts automatically) and rename it **Programiz JavaScript Tracking**
+📊 **[Programiz-JavaScript-Tracking-Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326)** (source files also in the [Drive folder](https://drive.google.com/drive/folders/1PaVJ8ad7RsiG15DTxDZJE6uAa_ubPFB8?usp=sharing))
 
-Option 2 — import the CSV mirror:
-1. Sheets → **File → Import → Upload** → the `.csv` mirror → **Replace spreadsheet**
+It holds the same 59 rows and 11 columns (`Srno … Estimated Hours … References`) as the in-repo `.xls`/`.md` mirrors.
 
-Either way you get the same 59 rows and 11 columns (`Srno … Estimated Hours … References`).
-
-### Step 2 — Freeze and Filter
+### Step 1 — Freeze and Filter (one-time setup in the live Sheet)
 
 1. **View → Freeze → 1 row** (header always visible)
 2. **Data → Create a filter** (filter by Task/section while studying)
@@ -43,9 +38,9 @@ This is the "vice versa" half: the Sheet links back to the repo.
 =HYPERLINK("https://github.com/cloudshare360/aws-cloud-engineer-with-nodejs/blob/main/todo-task/task-10.md","← Today's routine (task-10)")
 ```
 
-### Step 4 — Note the GitHub → Sheet Link
+### Step 2 — Note the GitHub → Sheet Link (already done)
 
-The reverse direction lives in `programiz-learning/README.md` under **Progress Tracking — Google Sheet ↔ GitHub**: a markdown link pointing at this Sheet. (Owner: paste the real Sheet URL there — it currently holds a placeholder.)
+The reverse direction lives in `programiz-learning/README.md` under **Progress Tracking — Google Sheet ↔ GitHub**: a markdown link pointing at this live tracking Sheet.
 
 ### Step 5 — Sharing
 
@@ -97,7 +92,7 @@ Do this every study day, in order:
 | Lost today's place | Sheet filter: sort by Srno, find first row with empty Actual End Date |
 | Sheet and repo disagree on order | `Srno` order wins — folders and rows both follow it |
 | Offline day (no internet) | Study from local `index.md` files; update the Sheet when back online |
-| Sheet link in README is a placeholder | Paste the real Sheet URL into `programiz-learning/README.md` |
+| Sheet link missing from README | Confirm the Drive-folder link exists in `programiz-learning/README.md` |
 | Fell behind mid-plan | Use Saturday buffer first, then shift Planned dates right |
 
 ---
@@ -110,10 +105,10 @@ While this file gives the **order**, the **how** lives in these guides — open 
 
 ## ✅ Task 10 — Completion Checklist
 
-- [ ] Google Sheet created from the `.xls`/`.csv` (59 rows present)
+- [ ] Opened the live [tracking Sheet](https://docs.google.com/spreadsheets/d/1LGqEJ6FlUa5u6STiqpFl9w1AVbxcUklj/edit?gid=95527326#gid=95527326) (59 rows present)
 - [ ] Header row frozen; filter enabled
 - [ ] `NAVIGATION` row added with `=HYPERLINK(...)` back to `programiz-learning` on GitHub
-- [ ] `programiz-learning/README.md` links to the Sheet (placeholder replaced with real URL)
+- [ ] Confirmed `programiz-learning/README.md` links to the live Sheet
 - [ ] Completed one full study day using the Part B routine (study → commit → log)
 - [ ] First week's Sheet rows all carry Actual dates
 - [ ] Weekly review habit established (Saturday)
