@@ -170,6 +170,7 @@ brew install node
 While this file gives the **order**, the **how** lives in these guides — open them when a step needs more detail:
 
 - [Scoop homepage](https://scoop.sh) (install commands) and [Homebrew homepage](https://brew.sh) (macOS equivalent)
+- [Video instructions](./task-01-setup-install-scoop-video-instructions/index.html) — open this HTML page to watch the task recording auto-play; controls let you play, pause, stop, and repeat. The video file (`task-01-scoop-setup.mp4`) lives in the same folder.
 
 ## ✅ Task 01 — Completion Checklist
 
