@@ -28,6 +28,7 @@ This repository is a learning roadmap and documentation workspace for AWS cloud 
 
 ## Folder structure
 - How-To-Do/git-github/ — **how** each Git/GitHub step is executed (deep-dive guides, cheatsheets)
+- How-To-Do/git-lab/ — **how** each GitLab step is executed (cheatsheet, hands-on, setup guides, slide extraction)
 - How-To-Do/nodejs/ — **how** each Node.js step is executed
 - How-To-Do/vscode/ — **how** each VS Code step is executed
 - todo-task/task-01-setup-install-scoop.md … task-11-install-kilo-cli-vscode.md — **execution order**: the numbered sequence; each task's ✅ checklist gates the next file
@@ -51,6 +52,8 @@ This repository is a learning roadmap and documentation workspace for AWS cloud 
 - `javascript-roadmap` — JS topic progression theory.
 - `git-workflow` — commit/push discipline, PAT auth, branching.
 - `nodejs-setup`, `vscode-dev`, `github-codespaces`, `aws-cloud-engineering`, `fullstack-development`, `agile-practice` — topic skills as named.
+- `youtube-slide-extract` — extract slides/screenshots from YouTube videos using yt-dlp + ffmpeg + OpenCV; covers both automated pipeline and manual ffmpeg frame extraction.
+- `gitlab-workflow` — GitLab CLI commands, SSH key setup, GitLab Runner installation (macOS/Windows), CI/CD pipelines, and merge request creation.
 
 ## Preferred behavior for edits
 - Skills over memory: when a request maps to a skill (setup order, JS study, tracking sheet, Kilo config), follow that skill's workflow.
