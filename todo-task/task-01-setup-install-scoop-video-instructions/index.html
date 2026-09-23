@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 01 — Scoop Setup Video Instructions</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #1e1e2e;
+      color: #e8e8ef;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1 { font-size: 1.5rem; color: #8ec07c; }
+    video {
+      width: 100%;
+      border-radius: 8px;
+      background: #000;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+    }
+    .hint {
+      background: #32324a;
+      border-left: 4px solid #8ec07c;
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      margin: 16px 0;
+    }
+    code { background: #45475a; padding: 2px 6px; border-radius: 4px; }
+    button {
+      background: #8ec07c;
+      border: none;
+      color: #1e1e2e;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 12px;
+      margin-right: 6px;
+    }
+    button.active { background: #e0b07a; }
+    #missing {
+      display: none;
+      background: #4a3232;
+      border-left: 4px solid #e07a7a;
+      padding: 12px 14px;
+      border-radius: 4px;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Task 01 — Install Scoop (Video Instructions)</h1>
+
+  <div class="hint">
+    The video starts playing automatically (muted — browsers require this).
+    Use the buttons below or the player bar to <strong>Play/Pause</strong>,
+    <strong>Stop</strong> (back to start), and <strong>Repeat</strong> (loop) as needed.
+    To add your recording, save it as <code>task-01-scoop-setup.mp4</code> next to this <code>index.html</code> file.
+  </div>
+
+  <video id="player" autoplay muted controls playsinline>
+    <source src="task-01-scoop-setup.mp4" type="video/mp4">
+  </video>
+
+  <div class="controls">
+    <button id="play" type="button">Play</button>
+    <button id="stop" type="button">Stop</button>
+    <button id="repeat" type="button">Repeat: Off</button>
+    <button id="unmute" type="button">Unmute</button>
+    <button id="replay" type="button">Restart</button>
+  </div>
+
+  <div id="missing">
+    <strong>Video not found.</strong> No file named <code>task-01-scoop-setup.mp4</code>
+    exists in this folder yet. Place the Task 01 recording (MP4) next to this
+    <code>index.html</code> file with that exact name, then reload this page.
+  </div>
+
+  <script>
+    const video = document.getElementById("player");
+    const missing = document.getElementById("missing");
+    const source = video.querySelector("source");
+
+    source.addEventListener("error", () => {
+      missing.style.display = "block";
+      video.style.display = "none";
+    });
+
+    function refreshPlayButton() {
+      document.getElementById("play").textContent = video.paused ? "Play" : "Pause";
+    }
+
+    document.getElementById("play").addEventListener("click", () => {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
+
+    document.getElementById("stop").addEventListener("click", () => {
+      video.pause();
+      video.currentTime = 0;
+    });
+
+    const repeatBtn = document.getElementById("repeat");
+    repeatBtn.addEventListener("click", () => {
+      video.loop = !video.loop;
+      repeatBtn.textContent = video.loop ? "Repeat: On" : "Repeat: Off";
+      repeatBtn.classList.toggle("active", video.loop);
+    });
+
+    document.getElementById("unmute").addEventListener("click", () => {
+      video.muted = false;
+      video.play();
+    });
+
+    document.getElementById("replay").addEventListener("click", () => {
+      video.currentTime = 0;
+      video.play();
+    });
+
+    video.addEventListener("play", refreshPlayButton);
+    video.addEventListener("pause", refreshPlayButton);
+  </script>
+</body>
+</html>

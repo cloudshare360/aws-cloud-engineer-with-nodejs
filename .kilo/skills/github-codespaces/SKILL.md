@@ -5,7 +5,7 @@ description: Set up and develop within GitHub Codespaces, including environment 
 
 # GitHub Codespaces
 
-This skill guides use of GitHub Codespaces as a cloud-based development environment, as introduced in `readme.md` section 2 and `How-To-Do/github-codespaces/`.
+This skill guides use of GitHub Codespaces as a cloud-based development environment, as introduced in [read_setup_environment](../../../docs/readme/read_setup_environment.md) (roadmap §2).
 
 ## What Are GitHub Codespaces?
 
@@ -102,8 +102,7 @@ gh codespace open --repo YOUR-USERNAME/repo-name
 
 ## Related Documentation
 
-- `readme.md` — Section 2 (required tools, Codespaces awareness).
-- `How-To-Do/github-codespaces/Hands-On/` — placeholder for hands-on exercises.
+- `docs/readme/read_setup_environment.md` — Section 2 (required tools, Codespaces awareness).
 - `.kilo/skills/nodejs-setup/` — environment verification (`node --version`, `npm --version`).
 - `.kilo/skills/vscode-dev/` — VS Code workflow and extensions.
 

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+
+  "model": "kilo-auto/free",
+  "small_model": "kilo-auto/free",
+  "subagent_model": "kilo-auto/free",
+  "agent": {
+    "compaction": {
+      "model": "kilo-auto/free"
+    }
+  },
+
+  "permission": {
+    "*": "ask",
+    "bash": {
+      "*": "ask",
+      "git *": "allow",
+      "npm *": "allow",
+      "python *": "allow",
+      "scoop *": "allow",
+      "node *": "allow"
+    },
+    "edit": {
+      "*": "ask",
+      "todo-task/**": "allow",
+      "programiz-learning/**": "allow",
+      "How-To-Do/**": "allow",
+      "readme.md": "allow",
+      "AGENTS.md": "allow"
+    }
+  },
+
+  "instructions": ["AGENTS.md", "todo-task/task-11-install-kilo-cli-vscode.md"]
+}
