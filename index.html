@@ -3,31 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AWS Cloud Engineer with Node.js — Learning Hub</title>
-  <meta http-equiv="refresh" content="6; url=todo-task/task-01-setup-install-scoop-video-instructions/">
+  <title>AWS Cloud Engineer Learning Hub</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.12.0/lib/themes/default.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #1e1e2e;
-      color: #e8e8ef;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 32px 24px;
-    }
-    h1 { font-size: 1.4rem; color: #8ec07c; }
-    ul { line-height: 1.9; }
-    a { color: #8ab4f8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .note { font-size: 0.85rem; color: #a9a9c0; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .sidebar { background: #1e1e2e; }
+    .sidebar .app-name { color: #8ec07c; }
+    .sidebar a { color: #c8c8d8; }
+    .sidebar .nav-item a:hover { background: #2a2a3e; }
+    .sidebar .nav-folder > a { color: #8ec07c; font-weight: 600; }
+    .sidebar .nav-folder > a:hover { background: transparent; }
+    .sidebar .nav-list a { padding-left: 28px; }
+    .sidebar .nav-list a:hover { background: #2a2a3e; }
+    .sidebar .nav-list a.active { background: #2a2a3e; color: #8ab4f8; border-right: 3px solid #8ab4f8; }
+    .sidebar .app-footer { color: #7a7a90; font-size: 12px; }
+    .markdown-body { max-width: 820px; }
+    .markdown-body pre { background: #1a1a2e; }
+    .markdown-body code { background: #eef; }
+    .markdown-body pre code { background: transparent; }
+    .app-main { padding-top: 0; }
   </style>
 </head>
 <body>
-  <h1>AWS Cloud Engineer with Node.js — Learning Hub</h1>
-  <ul>
-    <li><a href="todo-task/task-01-setup-install-scoop-video-instructions/">Task 01 — Scoop setup (video instructions, auto-play)</a></li>
-    <li><a href="readme.md">Roadmap hub (readme.md)</a></li>
-    <li><a href="https://github.com/cloudshare360/aws-cloud-engineer-with-nodejs">Repository on GitHub</a></li>
-  </ul>
-  <p class="note">Redirecting to the Task 01 video page in a few seconds…</p>
+  <div id="app"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.12.0/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.12.0/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.12.0/lib/plugins/emoji.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.12.0/lib/plugins/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/styles/atom-one-dark.min.css">
+
+  <script>
+    window.$docsify = {
+      name: 'AWS Cloud Engineer Learning Hub',
+      repo: 'cloudshare360/aws-cloud-engineer-with-nodejs',
+      homepage: 'README.md',
+      sidebar: '_sidebar.md',
+      sidebarLevels: 2,
+      auto2top: true,
+      loadSidebar: '_sidebar.md',
+      maxLevel: 3,
+      subMaxLevel: 4,
+      search: 'auto',
+      searchMaxSuggestions: 8,
+      mergeSidebar: true,
+      coverpage: false,
+    };
+  </script>
+
+  <script>
+    // Custom hook: add Copy + Run buttons to every code block
+    function Hook(hook, vm) {
+      hook.afterEach(function (html) {
+        const tmp = document.createElement('div');
+        tmp.innerHTML = html;
+        tmp.querySelectorAll('pre').forEach(pre => {
+          const code = pre.querySelector('code');
+          if (!code) return;
+          const btnRow = document.createElement('div');
+          btnRow.style.cssText = 'display:flex;gap:8px;margin-bottom:8px;';
+          const copyBtn = document.createElement('button');
+          copyBtn.textContent = 'Copy';
+          copyBtn.style.cssText = 'background:#2a2a3e;color:#c8c8d8;border:1px solid #3a3a4e;border-radius:6px;padding:4px 10px;font-size:12px;cursor:pointer;';
+          copyBtn.onclick = () => {
+            navigator.clipboard.writeText(code.textContent);
+            copyBtn.textContent = 'Copied!';
+            setTimeout(() => copyBtn.textContent = 'Copy', 1500);
+          };
+          const cls = code.className || '';
+          if (cls.includes('js') || cls.includes('javascript')) {
+            const runBtn = document.createElement('button');
+            runBtn.textContent = '▶ Run';
+            runBtn.style.cssText = 'background:#8ec07c;color:#1e1e2e;border:none;border-radius:6px;padding:4px 10px;font-size:12px;cursor:pointer;font-weight:600;';
+            runBtn.onclick = () => {
+              const out = document.createElement('pre');
+              out.style.cssText = 'background:#0d0d1a;color:#8ec07c;border:1px solid #2a2a3e;border-radius:6px;padding:12px;margin:0;white-space:pre-wrap;overflow-x:auto;font-size:12px;';
+              try {
+                const result = eval(code.textContent);
+                out.textContent = String(result !== undefined ? result : '(no output)');
+              } catch (e) {
+                out.textContent = 'Error: ' + e.message;
+                out.style.color = '#e07070';
+              }
+              pre.parentNode.insertBefore(out, pre.nextSibling);
+            };
+            btnRow.appendChild(runBtn);
+          }
+          btnRow.appendChild(copyBtn);
+          pre.parentNode.insertBefore(btnRow, pre);
+        });
+        return tmp.innerHTML;
+      });
+    }
+  </script>
 </body>
 </html>
